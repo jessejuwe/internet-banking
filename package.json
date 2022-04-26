@@ -1,0 +1,22 @@
+{
+  "name": "internet-banking",
+  "version": "1.0.0",
+  "description": "banking web app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessejuwe/javascript.git#main"
+  },
+  "author": "Jesse Juwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessejuwe/javascript/issues"
+  },
+  "homepage": "https://github.com/jessejuwe/javascript/tree/main#readme",
+  "dependencies": {
+    "parcel": "^2.5.0"
+  }
+}

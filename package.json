@@ -2,9 +2,11 @@
   "name": "internet-banking",
   "version": "1.0.0",
   "description": "banking web app",
-  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "default": "index.html"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
     "url": "https://github.com/jessejuwe/javascript/issues"
   },
   "homepage": "https://github.com/jessejuwe/javascript/tree/main#readme",
-  "dependencies": {
+  "devDependencies": {
     "parcel": "^2.5.0"
   }
 }
